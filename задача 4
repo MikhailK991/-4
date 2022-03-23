@@ -1,0 +1,20 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Как вас зовут?");
+        string name;
+        name = Console.ReadLine();
+        Console.WriteLine("Какой ваш знак задиака?");
+        string zodiac;
+        zodiac= Console.ReadLine();
+        Console.WriteLine("Где вы работаете?");
+        string job;
+        job = Console.ReadLine();
+        Console.WriteLine("Из какого вы города?");
+        string city;
+        city = Console.ReadLine();
+    }
+}
